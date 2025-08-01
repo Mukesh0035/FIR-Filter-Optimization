@@ -1,9 +1,0 @@
-CADENCE IHNL01070
-$model
-Practice/6TSRAM/schematic Practice_6TSRAM_schematic
-$endmodel
-$net
-gnd! 0
-$endnet
-$param
-$endparam

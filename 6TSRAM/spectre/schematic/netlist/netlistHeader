@@ -1,7 +1,0 @@
-// Generated for: spectre
-// Generated on: Aug  1 14:50:02 2025
-// Design library name: Practice
-// Design cell name: 6TSRAM
-// Design view name: schematic
-simulator lang=spectre
-global 0

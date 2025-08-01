@@ -1,6 +1,0 @@
-HEADER
-"PSFversion" "1.00"
-"PM1n PM0n" "gpdk090_pmos1v_spectre"
-"NM4n NM5n NM1n NM0n" "gpdk090_nmos1v_spectre"
-"V3n V1n V2n" "analogLib_vpulse_spectre"
-"V5n V0n" "analogLib_vdc_spectre"
