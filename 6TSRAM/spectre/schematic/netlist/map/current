@@ -1,0 +1,26 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "6TSRAM"
+  repList "spectre cmos_sch cmos.sch schematic veriloga"
+  stopList "spectre"
+  globalList "gnd!"
+  hierDelim "."
+  netlistDir "/home/buet/simulation/6TSRAM/spectre/schematic/netlist"
+ )
+( instViewTable
+ )
+( net
+( "gnd!" "0" )
+ )
+( inst
+ )
+( model
+( "Practice/6TSRAM/schematic" "Practice_6TSRAM_schematic" )
+ )
+( term
+ )
+( param
+ )
+( "Practice_6TSRAM_schematic" "ihnl/cds0/map" )
+ )

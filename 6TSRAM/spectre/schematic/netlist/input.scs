@@ -1,0 +1,44 @@
+// Generated for: spectre
+// Generated on: Aug  1 14:50:02 2025
+// Design library name: Practice
+// Design cell name: 6TSRAM
+// Design view name: schematic
+simulator lang=spectre
+global 0
+include "/home/buet/cadence/gpdk090_v4.6/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs" section=NN
+
+// Library name: Practice
+// Cell name: 6TSRAM
+// View name: schematic
+PM1 (q qb net9 net9) gpdk090_pmos1v w=(120n) l=100n as=69.6f ad=69.6f \
+        ps=1.16u pd=1.16u m=(1)*(1) simM=(1)*(1)
+PM0 (qb q net9 net9) gpdk090_pmos1v w=(120n) l=100n as=69.6f ad=69.6f \
+        ps=1.16u pd=1.16u m=(1)*(1) simM=(1)*(1)
+NM4 (qb WL Bit_line_bar 0) gpdk090_nmos1v w=(120n) l=100n as=69.6f \
+        ad=69.6f ps=1.16u pd=1.16u m=(1)*(1) simM=(1)*(1)
+NM5 (Bit_line WL q 0) gpdk090_nmos1v w=(120n) l=100n as=69.6f ad=69.6f \
+        ps=1.16u pd=1.16u m=(1)*(1) simM=(1)*(1)
+NM1 (q qb 0 0) gpdk090_nmos1v w=(120n) l=100n as=69.6f ad=69.6f ps=1.16u \
+        pd=1.16u m=(1)*(1) simM=(1)*(1)
+NM0 (qb q 0 0) gpdk090_nmos1v w=(120n) l=100n as=69.6f ad=69.6f ps=1.16u \
+        pd=1.16u m=(1)*(1) simM=(1)*(1)
+V3 (WL 0) vsource type=pulse val0=0 val1=1.8 period=4u
+V1 (Bit_line_bar 0) vsource type=pulse val0=1.8 val1=0 period=2u
+V2 (Bit_line 0) vsource type=pulse val0=0 val1=1.8V period=2u
+V5 (qb 0) vsource dc=1.8 type=dc
+V0 (net9 0) vsource dc=1.8 type=dc
+simulatorOptions options reltol=1e-3 vabstol=1e-6 iabstol=1e-12 temp=27 \
+    tnom=27 scalem=1.0 scale=1.0 gmin=1e-12 rforce=1 maxnotes=5 maxwarns=5 \
+    digits=5 cols=80 pivrel=1e-3 sensfile="../psf/sens.output" \
+    checklimitdest=psf 
+dcOp dc write="spectre.dc" maxiters=150 maxsteps=10000 annotate=status
+dcOpInfo info what=oppoint where=rawfile
+dc dc dev=V5 param=dc start=0 stop=1.8 oppoint=rawfile maxiters=150 \
+    maxsteps=10000 annotate=status
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts  where=rawfile
+saveOptions options save=allpub

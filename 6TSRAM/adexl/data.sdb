@@ -1,0 +1,405 @@
+<?xml version="1.0"?>
+<setupdb version="5">data
+	<active>Active Setup
+		<corners>
+			<corner enabled="1">_default</corner>
+			<corner enabled="1">C0v
+				<vars>
+					<var>vdd
+						<value>1.8, 1</value>
+					</var>
+				</vars>
+				<models>
+					<model enabled="1">gpdk090.scs
+						<modelfile>/home/buet/cadence/gpdk090_v4.6/models/spectre/gpdk090.scs</modelfile>
+						<modelsection>"ff", "fs", "ss", "sf"</modelsection>
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+					</model>
+				</models>
+			</corner>
+		</corners>
+		<extensions>
+			<extension>Parasitics
+				<callback>_parSetupDBExtensionCB</callback>
+				<iconvalue></iconvalue>
+				<icontype></icontype>
+			</extension>
+		</extensions>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
+		<overwritehistory>0</overwritehistory>
+		<tests>
+			<test enabled="1">Practice:6TSRAM:1
+				<tool>ADE</tool>
+				<tooloptions>
+					<option>cell
+						<value>6TSRAM</value>
+					</option>
+					<option>lib
+						<value>Practice</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR/test_states</value>
+					</option>
+					<option>state
+						<value>Practice:6TSRAM:1_active</value>
+					</option>
+				</tooloptions>
+				<origoptions>
+					<option>cell
+						<value>6TSRAM</value>
+					</option>
+					<option>lib
+						<value>Practice</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+				</origoptions>
+			</test>
+		</tests>
+		<vars>
+			<var enabled="0">V
+				<value></value>
+				<dependentTests>
+					<dependentTest omitted="0">Practice:6TSRAM:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>vdd
+				<value>1.8</value>
+				<dependentTests>
+					<dependentTest omitted="0">Practice:6TSRAM:1</dependentTest>
+				</dependentTests>
+			</var>
+		</vars>
+		<overwritehistoryname>Interactive.0</overwritehistoryname>
+		<plottingoptions>
+			<plottingoption>plottype
+				<value>None</value>
+			</plottingoption>
+			<plottingoption>usewaveformtemplate
+				<value>no</value>
+			</plottingoption>
+			<plottingoption>waveformtemplate
+				<value>                            </value>
+			</plottingoption>
+		</plottingoptions>
+	</active>
+	<history>History
+		<historyentry>Interactive.0
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>Practice:6TSRAM:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>6TSRAM</value>
+							</option>
+							<option>lib
+								<value>Practice</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Practice:6TSRAM:1_none_Interactive.0</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>6TSRAM</value>
+							</option>
+							<option>lib
+								<value>Practice</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="0">V
+						<value></value>
+						<dependentTests>
+							<dependentTest omitted="0">Practice:6TSRAM:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>vdd
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest omitted="0">Practice:6TSRAM:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>                            </value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>1</sortVariableValues>
+			</checkpoint>
+			<timestamp>Fri Aug  1 15:20:07 2025
+</timestamp>
+			<resultsname>/home/buet/Practice/6TSRAM/adexl/results/data/Interactive.0.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.0.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/cadence_buet_152007633</localpsfdir>
+			<psfdir>/home/buet/simulation/Practice/6TSRAM/adexl/results/data/Interactive.0</psfdir>
+			<simdir>$AXL_PROJECT_DIR/Practice/6TSRAM/adexl/results/data/Interactive.0</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/buet/Practice/6TSRAM/adexl/results/data/Interactive.0.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.0.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry>Interactive.1
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>Practice:6TSRAM:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>6TSRAM</value>
+							</option>
+							<option>lib
+								<value>Practice</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Practice:6TSRAM:1_none_Interactive.1</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>6TSRAM</value>
+							</option>
+							<option>lib
+								<value>Practice</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="0">V
+						<value></value>
+						<dependentTests>
+							<dependentTest omitted="0">Practice:6TSRAM:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>vdd
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest omitted="0">Practice:6TSRAM:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>                            </value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>1</sortVariableValues>
+			</checkpoint>
+			<timestamp>Fri Aug  1 16:05:52 2025
+</timestamp>
+			<resultsname>/home/buet/Practice/6TSRAM/adexl/results/data/Interactive.1.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.1.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/cadence_buet_160552231</localpsfdir>
+			<psfdir>/home/buet/simulation/Practice/6TSRAM/adexl/results/data/Interactive.1</psfdir>
+			<simdir>$AXL_PROJECT_DIR/Practice/6TSRAM/adexl/results/data/Interactive.1</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/buet/Practice/6TSRAM/adexl/results/data/Interactive.1.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.1.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry>Interactive.2
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="1">C0v
+						<vars>
+							<var>vdd
+								<value>1.8, 1</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modelfile>/home/buet/cadence/gpdk090_v4.6/models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"ff", "fs", "ss", "sf"</modelsection>
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">Practice:6TSRAM:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>6TSRAM</value>
+							</option>
+							<option>lib
+								<value>Practice</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Practice:6TSRAM:1_none_Interactive.2</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>6TSRAM</value>
+							</option>
+							<option>lib
+								<value>Practice</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="0">V
+						<value></value>
+						<dependentTests>
+							<dependentTest omitted="0">Practice:6TSRAM:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>vdd
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest omitted="0">Practice:6TSRAM:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>                            </value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>1</sortVariableValues>
+			</checkpoint>
+			<timestamp>Fri Aug  1 16:19:29 2025
+</timestamp>
+			<resultsname>/home/buet/Practice/6TSRAM/adexl/results/data/Interactive.2.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.2.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/cadence_buet_161929054</localpsfdir>
+			<psfdir>/home/buet/simulation/Practice/6TSRAM/adexl/results/data/Interactive.2</psfdir>
+			<simdir>$AXL_PROJECT_DIR/Practice/6TSRAM/adexl/results/data/Interactive.2</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/buet/Practice/6TSRAM/adexl/results/data/Interactive.2.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.2.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+	</history>
+</setupdb>

@@ -1,0 +1,188 @@
+HEADER
+"PSFversion" "1.00"
+"simulator" "spectre"
+"version" "12.1.0.347.isr3"
+"date" "2:50:03 PM, Fri Aug 1, 2025"
+"design" "// Generated for: spectre"
+"analysis type" "info.subckts"
+"analysis name" "subckts"
+"analysis description" "Circuit Information"
+"xVecSorted" "unknown"
+"tolerance.relative" 0.00100000
+TYPE
+"subckt" STRUCT(
+"subckt_params" STRING *
+"subckt_terminals" STRING *
+) PROP(
+"key" "sub"
+)
+VALUE
+"gpdk090_ndio" "subckt" (
+""
+""
+)
+"gpdk090_vpnp10" "subckt" (
+""
+""
+)
+"gpdk090_resm6" "subckt" (
+""
+""
+)
+"gpdk090_ndio_na25" "subckt" (
+""
+""
+)
+"gpdk090_vpnp" "subckt" (
+""
+""
+)
+"gpdk090_resm9" "subckt" (
+""
+""
+)
+"gpdk090_nmos1v" "subckt" (
+"geo_fac mm_dl ad mm_mu0 nrs as garea mm_delvt mm_dtox pd w mm_dw ps mareverse varvt l maforward simM nrd"
+"D G S B"
+)
+"gpdk090_nwdio" "subckt" (
+""
+""
+)
+"gpdk090_resnsnpoly" "subckt" (
+""
+""
+)
+"gpdk090_resm8" "subckt" (
+""
+""
+)
+"gpdk090_pmos1v_hvt" "subckt" (
+""
+""
+)
+"gpdk090_nmos1v_iso" "subckt" (
+""
+""
+)
+"gpdk090_resspdiff" "subckt" (
+""
+""
+)
+"gpdk090_nmos1v_nat" "subckt" (
+""
+""
+)
+"gpdk090_ressnpoly" "subckt" (
+""
+""
+)
+"gpdk090_vpnp2" "subckt" (
+""
+""
+)
+"gpdk090_pmos2v" "subckt" (
+""
+""
+)
+"gpdk090_resm2" "subckt" (
+""
+""
+)
+"gpdk090_ressndiff" "subckt" (
+""
+""
+)
+"gpdk090_resm7" "subckt" (
+""
+""
+)
+"gpdk090_mimcap" "subckt" (
+""
+""
+)
+"gpdk090_ndio_25" "subckt" (
+""
+""
+)
+"gpdk090_pdio_25" "subckt" (
+""
+""
+)
+"gpdk090_pdio_hvt" "subckt" (
+""
+""
+)
+"gpdk090_resnsndiff" "subckt" (
+""
+""
+)
+"gpdk090_pnp" "subckt" (
+""
+""
+)
+"gpdk090_vpnp5" "subckt" (
+""
+""
+)
+"gpdk090_ndio_na" "subckt" (
+""
+""
+)
+"gpdk090_nmos2v_nat" "subckt" (
+""
+""
+)
+"gpdk090_nmos1v_hvt" "subckt" (
+""
+""
+)
+"gpdk090_ndio_hvt" "subckt" (
+""
+""
+)
+"gpdk090_ressppoly" "subckt" (
+""
+""
+)
+"gpdk090_resnspdiff" "subckt" (
+""
+""
+)
+"gpdk090_pmos1v" "subckt" (
+"geo_fac mm_dl ad mm_mu0 nrs as garea mm_delvt mm_dtox pd w mm_dw ps mareverse varvt l maforward simM nrd"
+"D G S B"
+)
+"gpdk090_resm5" "subckt" (
+""
+""
+)
+"gpdk090_resm3" "subckt" (
+""
+""
+)
+"gpdk090_resnsppoly" "subckt" (
+""
+""
+)
+"gpdk090_nmos2v" "subckt" (
+""
+""
+)
+"gpdk090_npn" "subckt" (
+""
+""
+)
+"gpdk090_pdio" "subckt" (
+""
+""
+)
+"gpdk090_resm4" "subckt" (
+""
+""
+)
+"gpdk090_resm1" "subckt" (
+""
+""
+)
+END

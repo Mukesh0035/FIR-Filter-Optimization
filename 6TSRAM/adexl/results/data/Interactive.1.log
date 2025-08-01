@@ -1,0 +1,14 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri Aug  1 16:05:52 2025 
+Best design point: 1
+Design specs: 
+	Practice:6TSRAM:1	corner	Nominal - 
+Design parameters: 
+	vdd		1.8
+
+Interactive.1
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.1 completed. 
+Current time: Fri Aug  1 16:06:00 2025 
