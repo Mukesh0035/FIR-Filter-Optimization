@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Fir_Filter.srcs/sources_1/new/csr_unit.v" \
+"../../../../Fir_Filter.srcs/sources_1/new/fir_filter_optimized.v" \
+"../../../../Fir_Filter.srcs/sources_1/new/fir_filter_serial_input_wrapper.v" \
+"../../../../Fir_Filter.srcs/sources_1/new/fir_filter_serial_output_wrapper.v" \
+"../../../../Fir_Filter.srcs/sources_1/new/fir_filter_top.v" \
+"../../../../Fir_Filter.srcs/sources_1/new/uart_rx.v" \
+"../../../../Fir_Filter.srcs/sources_1/new/uart_tx.v" \
+"../../../../Fir_Filter.srcs/sources_1/new/fir_uart_top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
